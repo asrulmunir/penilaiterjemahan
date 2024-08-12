@@ -38,7 +38,6 @@
             max-width: 800px;
             margin: 2rem auto;
             padding: 0 1rem;
-            position: relative;
         }
 
         h2 {
@@ -52,8 +51,7 @@
         }
 
         .right-button {
-            position: absolute;
-            right: 0;
+            float: right;
         }
 
         body {
@@ -904,11 +902,10 @@
         <p>5 = Sangat sedikit atau tiada kesalahan</p>
 
         <button onclick="calculateScore()" class="right-button">Kira Markah</button>
-        <div class="copyright">
+    </div>
+    <div class="copyright">
             © 2024 Nooni Ezdiani Yasin. All rights reserved.
         </div>
-
-    </div>
     <div id="result" class="container"></div>
     <script>
         // Attach the function to the window's onload event
